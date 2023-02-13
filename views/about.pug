@@ -1,0 +1,44 @@
+extends  layout
+//- title #{title}
+block content 
+    header 
+        .menu-btn 
+            span.menu-btn_burger
+        nav.nav 
+            ul.menu-nav
+                li.menu-nav_item
+                    a.menu-nav_link(href="/") Home 
+                li.menu-nav_item.active
+                    a.menu-nav_link(href="/about") About Me 
+                li.menu-nav_item
+                    a.menu-nav_link(href="") My Projects 
+                li.menu-nav_item
+                    a.menu-nav_link(href="/contact") Contact Me 
+    main
+        section.about 
+            .about_bio-image
+                .about_bio
+                    h2.text-secondary
+                    p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore minima excepturi commodi officiis aliquid blanditiis aspernatur eaque laboriosam facilis, hic quisquam, explicabo vitae, ipsam id incidunt saepe quas deleniti ipsum?
+            .jobs 
+                .jobs_job
+                    h2.text-secondary 2020 - Current
+                    h3 Synchronia Systems
+                    h6 Frontend Developer
+                        p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit asperiores corrupti error, nesciunt similique eveniet.
+                .jobs_job
+                    h2.text-secondary 2019 - 2020
+                    h3 Synchronia Systems
+                    h6 Mobile App Developer
+                        p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit asperiores corrupti error, nesciunt similique eveniet.
+                .jobs_job
+                    h2.text-secondary 2018 - 2019
+                    h3 Ispark Tech
+                    h6 Smart IoT Developer/Robotics
+                        p I worked in a team of Embeded System Developers/Hobbyists, where we intergrated smart IoT components/modules with Micro-controllers like Arduino, ESP8266, etc and built some amazing products/projects. We also dealt with solar/inverter installation on a large scale.
+        div.social-icons
+          a(href="#!").i.fab.fa-twitter.fa-2x
+          a(href="#!").i.fab.fa-linkedin.fa-2x
+          a(href="#!").i.fab.fa-instagram.fa-2x
+          a(href="#!").i.fab.fa-github.fa-2x
+        footer @Copyright 2023
