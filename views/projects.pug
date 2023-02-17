@@ -1,0 +1,72 @@
+extends layout 
+block content 
+    header 
+    .menu-btn 
+      span.menu-btn_burger
+    nav.nav 
+      ul.menu-nav
+        li.menu-nav_item
+          a.menu-nav_link(href="/") Home 
+        li.menu-nav_item
+          a.menu-nav_link(href="/about") About Me 
+        li.menu-nav_item.active
+          a.menu-nav_link(href="/projects") My Projects 
+        li.menu-nav_item
+          a.menu-nav_link(href="/contact") Contact Me
+    main
+      section.projects
+        div.projects_bio-image
+          h1.text-secondary My Projects
+        div.projects_items
+          div.projects_item
+            img(src="images/project-1.jpg" alt="My Project")
+            div.projects_btns
+              a.projects_btn(href="images/project-1.jpg")
+                i.fas.fa-eye Preview
+              a.projects_btn(href="#!")
+                i.fab.fa-github Github     
+          div.projects_item
+            img(src="images/project-1.jpg" alt="My Project")
+            div.projects_btns
+              a.projects_btn(href="#!")
+                i.fas.fa-eye Preview
+              a.projects_btn(href="#!")
+                i.fab.fa-github Github
+          div.projects_item
+            img(src="images/project-1.jpg" alt="My Project")
+            div.projects_btns
+              a.projects_btn(href="#!")
+                i.fas.fa-eye Preview
+              a.projects_btn(href="#!")
+                i.fab.fa-github Github
+          div.projects_item
+            img(src="images/project-1.jpg" alt="My Project")
+            div.projects_btns
+              a.projects_btn(href="#!")
+                i.fas.fa-eye Preview
+              a.projects_btn(href="#!")
+                i.fab.fa-github Github
+          div.projects_item
+            img(src="images/project-1.jpg" alt="My Project")
+            div.projects_btns
+              a.projects_btn(href="#!")
+                i.fas.fa-eye Preview
+              a.projects_btn(href="#!")
+                i.fab.fa-github Github
+          div.projects_item
+            img(src="images/project-1.jpg" alt="My Project")
+            div.projects_btns
+              a.projects_btn(href="#!")
+                i.fas.fa-eye Preview
+              a.projects_btn(href="#!")
+                i.fab.fa-github Github
+        div.social-icons
+          a(href="#!")
+            i.fab.fa-twitter.fa-2x
+          a(href="#!")
+            i.fab.fa-linkedin.fa-2x
+          a(href="#!")
+            i.fab.fa-instagram.fa-2x
+          a(href="#!")
+            i.fab.fa-github.fa-2x
+        footer @Copyright 2023
