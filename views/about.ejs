@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+
+    <title><%= title %></title>
+  </head>
+  <body>
+    <header>
+      <div class="menu-btn">
+        <span class="menu-btn_burger"></span>
+      </div>
+
+      <nav class="nav">
+        <ul class="menu-nav">
+          <li class="menu-nav_item">
+            <a class="menu-nav_link" href="/">Home</a>
+          </li>
+          <li class="menu-nav_item active">
+            <a class="menu-nav_link" href="/about">About</a>
+          </li>
+          <li class="menu-nav_item">
+            <a class="menu-nav_link" href="/projects">Projects</a>
+          </li>
+          <li class="menu-nav_item">
+            <a class="menu-nav_link" href="/contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="about">
+        <div class="about_bio-image">
+          <div class="about_bio">
+            <h2 class="text-secondary">BIO</h2>
+            <p>
+              Oluwatobi Adebayo is a solution driven enthusiast with top notch
+              skills, alongside effective & efficient qualities developed over
+              the years. With an aspiration to attain more experience & exposure
+              in the Tech and Minerals/Mining Industry, and add value to the
+              Industry in return.
+            </p>
+          </div>
+        </div>
+        <div><h1 class="skills_h1">Skill</h1></div>
+        <div class="skills">
+          <div class="skills_skill">
+            <i class="fab fa-html5 fa-2x"></i>
+            <h5>HTML5</h5>
+          </div>
+          <div class="skills_skill">
+            <i class="fab fa-css3 fa-2x"></i>
+            <h5>CSS3</h5>
+          </div>
+          <div class="skills_skill">
+            <i class="fab fa-square-js fa-2x"></i>
+            <h5>JS</h5>
+          </div>
+          <div class="skills_skill">
+            <i class="fab fa-git fa-2x"></i>
+            <h5>Git</h5>
+          </div>
+          <div class="skills_skill">
+            <i class="fab fa-github fa-2x"></i>
+            <h5>Github</h5>
+          </div>
+          <div class="skills_skill">
+            <i class="fab fa-sass fa-2x"></i>
+            <h5>Sass</h5>
+          </div>
+          <div class="skills_skill">
+            <i class="fab fa-app-store fa-2x"></i>
+            <h5>MIT Inventor</h5>
+          </div>
+          <div class="skills_skill">
+            <i class="fab fa-figma fa-2x"></i>
+            <h5>Figma</h5>
+          </div>
+        </div>
+
+        <div class="jobs">
+          <h1>Work Experience</h1>
+          <% if (addAbout.length) { %> <% for (let update of addAbout) { %>
+          <div class="jobs_job">
+            <h2 class="text-secondary"><%= update.duration%></h2>
+            <h3><%= update.location%></h3>
+            <h6><%= update.role%></h6>
+            <p><%= update.discription%></p>
+          </div>
+          <% } %> <% }else{%>
+          <h1>Nothing Here!</h1>
+          <%} %>
+        </div>
+
+        <div class="social-icons">
+          <a
+            href="https://twitter.com/weird_geniius?t=VOUyccXBlaZpXjy_ayR3NQ&s=09"
+          >
+            <i class="fab fa-twitter fa-2x"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/oluwatobi-adebayo-4738131a1">
+            <i class="fab fa-linkedin fa-2x"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/invites/contact/?i=19duqlzg1w6k&utm_content=mh28rsb"
+          >
+            <i class="fab fa-instagram fa-2x"></i>
+          </a>
+          <a href="https://github.com/TobiAdebayo">
+            <i class="fab fa-github fa-2x"></i>
+          </a>
+        </div>
+
+        <footer>&copy; Copyright 2023</footer>
+      </section>
+    </main>
+
+    <script
+      src="https://kit.fontawesome.com/717b8b059d.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="javascripts/main.js"></script>
+  </body>
+</html>
