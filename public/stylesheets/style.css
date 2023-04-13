@@ -215,13 +215,13 @@
   margin: 2rem auto 0 auto;
   display: grid;
   grid-template-columns: repeat(4, 3rem);
-  grid-gap: 2rem;
+  grid-gap: 1rem;
 }
 
 .about .skills_skill {
   background: none;
   padding: 0.5rem;
-  font-size: 150%;
+  font-size: 135%;
   /* box-shadow: 5px 5px 5px black; */
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.111);
 }
