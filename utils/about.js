@@ -11,7 +11,7 @@ const updateAbout = [
     location: 'Ispark Tech Hub || Barnawa Kaduna',
     role: 'Robotics',
     discription:
-      'I volunteered as an intern. My role was to assist in building smart embedded systems and interfacing them with microcontrollers and IoT. ',
+      'I volunteered as an intern. My role was to assist in building Smart Embedded Systems and interfacing them with microcontrollers and IoT. ',
   },
   {
     duration: 'Mar 2022 - Present',
