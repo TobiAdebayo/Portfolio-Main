@@ -4,7 +4,7 @@ const updateProject = [
     link: 'https://www.figma.com/file/MwRFbVwfyyclFoum4SGiJQ/Untitled?node-id=147%3A6&t=020Hu0Gk3Foqcq0m-1',
   },
   {
-    img: 'smartMeter2.png',
+    img: 'SmartMeter2.png',
     link: 'https://www.figma.com/file/WtaoUYMuH19AxJSRwknhyU/Smart-Meter-(Copy)?node-id=401%3A196&t=VuWkTz0OjKMiipt9-1',
     github: 'https://github.com/emmanuelsheshi/preMeter.git',
   },
