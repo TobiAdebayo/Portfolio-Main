@@ -18,8 +18,8 @@ const updateProject = [
   },
   {
     img: 'avtar2.jpg',
-    link: 'https://tobiadebayo.onrender.com/',
-    github: 'https://github.com/TobiAdebayo/webrepo.git',
+    link: 'https://oluwatobiadebayo.onrender.com',
+    github: 'https://github.com/TobiAdebayo/Portfolio-Main.git',
   },
 ];
 
