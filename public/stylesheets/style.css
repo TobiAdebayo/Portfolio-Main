@@ -346,7 +346,7 @@
   border-bottom: 5px solid #ff652f;
   overflow: hidden;
   cursor: pointer;
-  border-radius: 8px;
+  border-radius: 5px;
 }
 
 .projects_item img {
