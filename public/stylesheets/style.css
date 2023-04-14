@@ -17,7 +17,8 @@
       rgba(39, 39, 39, 0.3)
     ),
     url('/images/avtarr.jpg') center top;
-  background-size: cover;
+   background-size: cover;
+  object-fit: contain;
 }
 
 .home h2 {
@@ -159,7 +160,7 @@
   transition: all 0.5s ease-in-out;
   font-family: Pacifico;
   /* text-shadow: 0 0 10px black; */
-  text-shadow: 1.8px 0 1.8px black;
+  text-shadow: 1px 0 1px black;
 }
 .nav .menu-nav_link:hover {
   color: #ff652f;
@@ -205,7 +206,7 @@
 .about_bio {
   width: 80%;
   text-align: center;
-  text-shadow: 1.8px 0 1.8px black;
+  text-shadow: 1px 0 1px black;
 }
 .about_bio .text-secondary {
   padding-bottom: 1rem;
@@ -223,7 +224,7 @@
   padding: 0.5rem;
   font-size: 135%;
   /* box-shadow: 5px 5px 5px black; */
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.111);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.111);
 }
 
 .about .skills_h1 {
@@ -294,7 +295,7 @@
   background: #414141;
   padding: 0.5rem;
   border-bottom: 5px solid #ff652f;
-  box-shadow: 0 0 13px black;
+  box-shadow: 0 0 9px black;
 }
 .about .jobs_job h2,
 .about .jobs_job h3 {
@@ -520,7 +521,7 @@ h1 {
   .nav .menu-nav_link {
     font-size: 1.3rem;
     font-family: Oswald;
-    text-shadow: 0 0 6px black;
+    text-shadow: 0 0 3px black;
     /* text-shadow: 1.8px 0 1.8px black; */
   }
   .about_bio {
