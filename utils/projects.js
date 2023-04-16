@@ -1,6 +1,6 @@
 const updateProject = [
   {
-    img: 'Cover Review4Me 1.jpg',
+    img: 'Cover 1.jpg',
     link: 'https://www.figma.com/proto/MwRFbVwfyyclFoum4SGiJQ/Untitled?node-id=0-3&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=0%3A3',
     github: 'https://www.figma.com/file/MwRFbVwfyyclFoum4SGiJQ/Untitled?node-id=147%3A6&t=020Hu0Gk3Foqcq0m-1',
   },
