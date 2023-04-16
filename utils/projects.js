@@ -1,16 +1,18 @@
 const updateProject = [
   {
     img: 'Cover Review4Me 1.jpg',
-    link: 'https://www.figma.com/file/MwRFbVwfyyclFoum4SGiJQ/Untitled?node-id=147%3A6&t=020Hu0Gk3Foqcq0m-1',
+    link: 'https://www.figma.com/proto/MwRFbVwfyyclFoum4SGiJQ/Untitled?node-id=0-3&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=0%3A3',
+    github: 'https://www.figma.com/file/MwRFbVwfyyclFoum4SGiJQ/Untitled?node-id=147%3A6&t=020Hu0Gk3Foqcq0m-1',
   },
   {
     img: 'SmartMeter 1.jpg',
-    link: 'https://www.figma.com/file/WtaoUYMuH19AxJSRwknhyU/Smart-Meter-(Copy)?node-id=401%3A196&t=VuWkTz0OjKMiipt9-1',
-    github: 'https://github.com/emmanuelsheshi/preMeter.git',
+    link: 'https://github.com/emmanuelsheshi/preMeter.git',
+    github:'https://www.figma.com/file/WtaoUYMuH19AxJSRwknhyU/Smart-Meter-(Copy)?node-id=401%3A196&t=VuWkTz0OjKMiipt9-1',
   },
   {
     img: 'SmartMeterCover 1.jpg',
-    link: 'https://www.figma.com/file/Js5u3Fdsd0UssE6SGDX2dO/Smart-Meter?node-id=301%3A182&t=PPKHYvUU6e71FMIb-1',
+    link: 'https://www.figma.com/proto/Js5u3Fdsd0UssE6SGDX2dO/Smart-Meter?node-id=0%3A1&viewport=1044%2C962%2C1&scaling=scale-down&starting-point-node-id=119%3A112',
+    github: 'https://www.figma.com/file/Js5u3Fdsd0UssE6SGDX2dO/Smart-Meter?node-id=301%3A182&t=PPKHYvUU6e71FMIb-1',
   },
   {
     img: 'project-1.jpg',
