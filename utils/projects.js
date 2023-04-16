@@ -11,7 +11,7 @@ const updateProject = [
   },
   {
     img: 'SmartMeterCover 1.jpg',
-    link: 'https://www.figma.com/proto/Js5u3Fdsd0UssE6SGDX2dO/Smart-Meter?node-id=0%3A1&viewport=1044%2C962%2C1&scaling=scale-down&starting-point-node-id=119%3A112',
+    link: ' https://www.figma.com/proto/Js5u3Fdsd0UssE6SGDX2dO/Smart-Meter?node-id=119-112&scaling=scale-down&page-id=0%3A1&starting-point-node-id=308%3A300',
     github: 'https://www.figma.com/file/Js5u3Fdsd0UssE6SGDX2dO/Smart-Meter?node-id=301%3A182&t=PPKHYvUU6e71FMIb-1',
   },
   {
