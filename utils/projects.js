@@ -6,7 +6,7 @@ const updateProject = [
   },
   {
     img: 'SmartMeter 1.webp',
-    link: 'https://github.com/emmanuelsheshi/preMeter.git',
+    link: 'https://uni-abuja-smart-meter.onrender.com/',
     github:'https://www.figma.com/file/WtaoUYMuH19AxJSRwknhyU/Smart-Meter-(Copy)?node-id=401%3A196&t=VuWkTz0OjKMiipt9-1',
   },
   {
